@@ -14,4 +14,3 @@ RUN git clone https://github.com/theforeman/theforeman.org \
 EXPOSE 8080
 
 CMD cd theforeman.org && bundle exec jekyll serve -H 0.0.0.0 -P 8080
-#CMD id && pwd && ls -la
