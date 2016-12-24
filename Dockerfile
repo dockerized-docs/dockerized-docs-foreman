@@ -1,4 +1,5 @@
 FROM ruby:latest
+MAINTAINER Genadi Postrilko <genadipost@gmail.com>
 
 RUN groupadd -r runner -g 433 \
     && useradd -u 431 -r -g runner -m -s /sbin/nologin -c "Docker runner user" runner
